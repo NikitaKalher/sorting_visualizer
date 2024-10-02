@@ -1,0 +1,28 @@
+name: data_structure_visualization
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.6.6
+  url_launcher: ^6.1.5 # Add this line
+  flutter_bounce: ^1.0.1 # Add this line
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/  # Include all images in the directory
